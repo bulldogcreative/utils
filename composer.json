@@ -1,0 +1,16 @@
+{
+    "name": "bulldog/utils",
+    "description": "PHP Helpers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Levi Durfee",
+            "email": "ldurfee@bulldogcreative.com"
+        }
+    ],
+    "autoload": {
+        "files": ["config.php", "functions.php"]
+    },
+    "require": {}
+}
