@@ -13,6 +13,15 @@ Just some handy functions that we find useful packaged in a very lightweight pac
 dd($variable);
 ```
 
+## Dump
+
+`dump` var_dump, with `pre` tags if it is called from the browser.
+
+```php
+<?php
+dump($variable);
+```
+
 ## WriteLine
 
 `WriteLine` writes a string to the console then the newline character.
