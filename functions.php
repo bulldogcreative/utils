@@ -2,16 +2,22 @@
 
 if(!function_exists('dd')) {
     function dd($input) {
+        dump($input);
+        die();
+    }
+}
+
+if(!function_exists('dump')) {
+    function dump($input) {
         if(BD_WEB_REQUEST) {
             echo '<pre>';
         }
-        
+
         var_dump($input);
-        
+
         if(BD_WEB_REQUEST) {
             echo '</pre>';
         }
-        die();
     }
 }
 
