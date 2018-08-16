@@ -10,7 +10,7 @@ Just some handy functions that we find useful packaged in a very lightweight pac
 
 ```php
 <?php
-dd($variable);
+Bulldog\dd($variable);
 ```
 
 ## Dump
@@ -19,7 +19,7 @@ dd($variable);
 
 ```php
 <?php
-dump($variable);
+Bulldog\dump($variable);
 ```
 
 ## WriteLine
@@ -28,7 +28,7 @@ dump($variable);
 
 ```php
 <?php
-WriteLine("Hello, World!");
+Bulldog\WriteLine("Hello, World!");
 ```
 
 ## PrintCode
@@ -37,7 +37,7 @@ WriteLine("Hello, World!");
 
 ```php
 <?php
-PrintCode("Console.WriteLine", "C#");
+Bulldog\PrintCode("Console.WriteLine", "C#");
 ```
 
 ## Slugify
@@ -46,7 +46,7 @@ PrintCode("Console.WriteLine", "C#");
 
 ```php
 <?php
-Slugify("Article on the evolution of candy bars.");
+Bulldog\Slugify("Article on the evolution of candy bars.");
 ```
 
 ## ShortHash
@@ -56,6 +56,5 @@ It accepts an optional parameter for the length of the hash.
 
 ```php
 <?php
-ShortHash(time(), 5);
+Bulldog\ShortHash(time(), 5);
 ```
-
