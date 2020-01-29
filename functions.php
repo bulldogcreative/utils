@@ -1,14 +1,14 @@
 <?php
 
 if(!function_exists('Dd')) {
-    function dd($input) {
+    function Dd($input) {
         Dump($input);
         die();
     }
 }
 
 if(!function_exists('Dump')) {
-    function dump($input) {
+    function Dump($input) {
         if(BD_WEB_REQUEST) {
             echo '<pre>';
         }
